@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neural Style Transfer</title>
+
+    <!-- TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎨 Neural Style Transfer</h1>
+
+<input type="file" id="content" accept="image/*">
+<input type="file" id="style" accept="image/*">
+
+<button onclick="applyStyle()">Apply Style</button>
+
+<img id="outputImage">
+
+<script src="script.js"></script>
+
+</body>
+</html>

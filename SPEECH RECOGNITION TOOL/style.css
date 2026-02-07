@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+    background: #f7f4ed;
+    text-align: center;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    background: orange;
+    color: white;
+    border: none;
+}
+
+textarea {
+    width: 80%;
+    height: 120px;
+    margin-top: 15px;
+}
